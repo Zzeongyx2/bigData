@@ -4,9 +4,9 @@
 ## SW 역량
 #### Python 프로그래밍 이해(1)
 1. [연산자와 키워드](https://github.com/Zzeongyx2/bigData/blob/main/DAY_1/%EC%8B%A4%EC%8A%B5(1).py)
-2. 형변환
-3. 문자열 포맷팅
-4. 리스트와 튜플
+2. [형변환](https://github.com/Zzeongyx2/bigData/blob/main/DAY_1/%EC%8B%A4%EC%8A%B5(2).py)
+3. [문자열 포맷팅](https://github.com/Zzeongyx2/bigData/blob/main/DAY_1/%EC%8B%A4%EC%8A%B5(3).py)
+4. [리스트와 튜플](https://github.com/Zzeongyx2/bigData/blob/main/DAY_1/%EC%8B%A4%EC%8A%B5(4).py)
 
 ## 데이터 역량
 #### 데이터에 대한 이해와 정형 데이터 다루기 (모델링)
