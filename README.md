@@ -2,7 +2,7 @@
 2021년 공공 빅데이터 분석 청년인재 양성 데이터 전문 교육 과정 학습 정리
 --------------
 ## SW 역량
-#### Python 프로그래밍 이해(1)
+#### 1. Python 프로그래밍 이해(1)
 * [연산자와 키워드](https://github.com/Zzeongyx2/bigData/blob/main/DAY_1/%EC%8B%A4%EC%8A%B5(1).py)
 * [형변환](https://github.com/Zzeongyx2/bigData/blob/main/DAY_1/%EC%8B%A4%EC%8A%B5(2).py)
 * [문자열 포맷팅](https://github.com/Zzeongyx2/bigData/blob/main/DAY_1/%EC%8B%A4%EC%8A%B5(3).py)
