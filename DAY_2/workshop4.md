@@ -13,4 +13,4 @@
 5. 모두 완성이 된 ERD을 제출한다.
 
 ### 풀이
-![workshop4](/DAY_2/KakaoTalk_20210706_154828363.jpg)
+![workshop4](/DAY_2/워크샵(4).jpgg)
