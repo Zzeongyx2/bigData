@@ -1,4 +1,4 @@
 ## 데이터 모델에 대한 관계 나타내기
 
 ### 문제 및 풀이
-![workshop2](/DAY_2/KakaoTalk_20210706_135007964.jpg)
+![workshop2](/DAY_2/KakaoTalk_20210706_141447851.jpg)
