@@ -7,6 +7,12 @@
 * [형변환](https://github.com/Zzeongyx2/bigData/blob/main/DAY_1/%EC%8B%A4%EC%8A%B5(2).py)
 * [문자열 포맷팅](https://github.com/Zzeongyx2/bigData/blob/main/DAY_1/%EC%8B%A4%EC%8A%B5(3).py)
 * [리스트와 튜플](https://github.com/Zzeongyx2/bigData/blob/main/DAY_1/%EC%8B%A4%EC%8A%B5(4).py)
+* [셋과 딕셔너리]
+* [연산자와 조건문]
+* [반복문]
+* [함수매개변수]
+* [모듈 설치 및 사용자 정의 모듈]
+* [파일 입출력 시스템]
 #### 2. Python으로 배우는 외부 데이터 수집과 정제
 
 ## 데이터 역량
