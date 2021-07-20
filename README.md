@@ -98,7 +98,7 @@
 * [QGIS를 활용한 벡터데이터 - 라인](DAY_11/실습캡쳐.md)
 * [QGIS를 활용한 벡터데이터 - 폴리곤](DAY_11/실습캡쳐.md)
 * [QGIS를 활용한 벡터데이터 편집](DAY_11/실습캡쳐.md)
-* [QGIS를 활용한 데이터 검색](DAY_12/Q-GIS/qgis.md)
+* QGIS를 활용한 데이터 검색
 * [QGIS를 활용한 데이터 결합](DAY_12/Q-GIS/qgis.md)
 * [QGIS를 활용한 디지털 지도 제작](DAY_12/Q-GIS/qgis.md)
 * [QGIS를 활용한 래스터 데이터 편집](DAY_12/Q-GIS/qgis.md)
