@@ -42,7 +42,7 @@
 * [DML 기본 구문](DAY_10/DML기본구문.sql)
 * 데이터 제한과 정렬
 ###### SQL 응용
-* SQL함수 이해
+* [SQL함수 이해](DAY_15/function.sql)
 * [집계 쿼리](DAY_15/집계.sql)
 * [조인](DAY_15/join.sql)
 
