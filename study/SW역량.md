@@ -358,9 +358,101 @@ money.format(val)
 # 파이썬 리스트와 튜플
 ## 1. 파이썬 리스트
 ### 파이썬 리스트
+~~~python 
+letters = ['A', 'B', 'C', 'D', 'E', 'F']
+letters
+~~~
+#### 파이썬 리스트 연산
+~~~python
+letter1 = ['A'. 'B', 'C']
+letter2 = ['D', 'E']
 
+# 리스트와 리스트의 결합 연산
+letter1 + letter2       //실행결과 : ['A', 'B', 'C', 'D', 'E']
+
+# 원소 존재여부 확인을 위한 in 연산
+'A' in letter1      //True
+'A' in letter2      //False
+~~~
+
+#### 리스트의 원소 변경
+~~~python
+letters = ['A', 'B', 'C', 'D', 'E', 'F']
+letters[0] = 'a'
+letters               //실행결과 : ['a', 'B', 'C', 'D', 'E', 'F']
+letters[6] = 'a'      //error - 인덱스 범위 넘는 곳에 새로 추가 불가능
+~~~
+
+#### 내장함수
+~~~python
+letters = ['A', 'B', 'C', 'D', 'E', 'F']
+
+# 1. len()
+len(letters)          //실행결과 : 6
+
+# 2. count()
+letters.count('A')    //실행결과 : 1
+
+# 3. append()
+letters.append('a')
+letters               //실행결과 : ['A', 'B', 'C', 'D', 'E', 'F', 'a']
+
+# 4. insert()
+letters.insert(2, 'z')
+letters               //실행결과 : ['A', 'B', 'z', 'C', 'D', 'E', 'F', 'a']
+
+# 5. pop()
+letters.pop(2)        //실행결과 : 'z'
+letters               //실행결과 : ['A', 'B', 'C', 'D', 'E', 'F', 'a']
+
+# 6. remove()
+letters.remove('a')
+letters               //실행결과 : ['A', 'B', 'C', 'D', 'E', 'F']
+
+# 7. sort()
+letters.sort(reverse = True)
+letters             //실행결과 : ['F', 'E', 'D', 'C', 'B', 'A']
+letters.sort()
+letters             //실행결과 : ['A', 'B', 'C', 'D', 'E', 'F']
+~~~
 
 ## 2. 파이썬 리스트 인덱싱과 슬라이싱
-
+### 파이썬 리스트 인덱싱
+|문자열|'A'|'B'|'C'|'D'|'E'|'F'|
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|인덱스|0|1|2|3|4|5|
+|역인덱스|-6|-5|-4|-3|-2|-1|
+~~~python
+letters[0:3]        //실행결과 : ['A', 'B', 'C']
+letters[3:]         //실행결과 : ['D', 'E', 'F']
+letters[:]          //실행결과 : ['A', 'B', 'C', 'D', 'E', 'F']
+letters[::2]        //실행결과 : ['A', 'C', 'E']
+letters[::-1]       //실행결과 : ['F', 'E', 'D', 'C', 'B', 'A']
+~~~
 
 ## 3. 파이썬 튜플
+~~~python
+tuple1 = ('A', 'B', 'C', 'D', 'E')
+tuple1        //실행결과 : ('A', 'B', 'C', 'D', 'E')
+
+tuple1[0] = 'a'     //error
+~~~
+- 튜플의 원소 변경은 불가
+  - 튜플은 read only
+  - 리스트는 변경 가능
+- 튜플은 index() 함수와 count() 함수만 사용 가능
+
+### 파이썬 튜플의 리스트 변환
+튜플은 list() 함수를 사용하여 리스트로 변환 가능
+리스트는 tuple() 함수를 사용하여 튜플로 변환 가능
+
+-----
+
+# 파이썬 셋과 딕셔너리
+## 1. 파이썬 셋
+
+
+## 2. 파이썬 셋의 집합 연산
+
+
+## 3. 파이썬 딕셔너리
