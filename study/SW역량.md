@@ -220,10 +220,147 @@ len('HelloWorldPython')   //출력결과 : 16
 - 문자열.함수명(문자열)
 
 #### join() 함수
+- 지정된 문자로 문자열을 연결
 ~~~python
 '-'.join('12345')
 ~~~
+- 실행결과 : 1-2-3-4-5
 
 #### split() 함수
+지정된 분할하여 리스트로 반환
+~~~python
+'Hello-World-Python'.split('-')
+~~~
+- 실행결과 : ['Hello', 'World', 'Python']
+~~~python
+'서울시 마포구 상암동 1585'.split()
+~~~
+- 실행결과 : ['서울시', '마포구', '상암동', ' 1585']
+- split()에 파라미터가 없으면 공백을 기준으로 나눔
 
-## 3. 파이썬 문자열 
+#### strip()
+지정된 문자를 문자열로부터 제거
+~~~python
+text = '\t 문자열 정리   \n'
+text.strip()
+~~~
+- 실행결과 : '문자열 정리'
+- 특수문자 제거시 strip()의 파라미터로 작성
+
+#### replace() 함수
+문자열내 특정 문자를 다른 문자로 대체
+~~~python
+생일 = '2016/08/30'
+생일.replace('/', '-')
+~~~
+- 실행결과 : '2016-08-30'
+
+#### startswith() / endswith() 함수
+특정 문자열로 시작/종료 여부 검사
+- bool 자료형으로 반환
+~~~python
+'Hello World Python'.startswith('Hello')    //True
+'Hello World Python'.startswith('hello')    //False
+'Hello World Python'.endswith('Python')    //True
+'Hello World Python'.endswith('python')    //False
+~~~
+
+#### count() 함수
+문자열 내 지정된 문자의 개수
+~~~python
+text = 'Hello World Python'
+text.count('o')               //실행결과 : 3
+text = 'Hello World Python, Welcome to Python World'
+text.count('Python')        //실행결과 : 2
+~~~
+
+#### index() / find() 함수
+문자열 내 지정된 문자/문자열 위치 인덱스
+~~~python
+text = 'Hello World Python, Welcome to Python World'
+text.index('o')     //실행결과 : 4
+text.index('o', 5)    //실행결과 : 7
+text.find('Python')   //실행결과 : 12
+text.find('Python', 20)   //실행결가 : 31
+~~~
+
+#### capitalize() / lower() / upper() 함수
+문자열을 첫 글자만 대문자/소문자/대문자로 반환
+~~~
+'Hello World'.capitalize()    //실행결과 : 'Hello world'
+'Hello World'.lower()         //실행결과 : 'hello world'
+'Hello World'.upper()         //실행결과 : 'HELLO WORLD'
+~~~
+
+#### 문자열 in / not in 연산자
+문자열 내 특정 문자열이 포함 여부를 bool wkfyguddmfh qksghks
+- A in B : A 문자열이 B 문자열 내 포함 여부
+~~~python
+'Python' in 'Hello World Python'      //True
+'Java' in 'Hello World Python'        //False
+~~~
+
+## 3. 파이썬 문자열 포맷팅
+### 문자열 포맷팅 방법
+1. 
+~~~python
+name, age, phone = '홍길동', 25, '010-111-2222'
+소개 = "이름은 {}이고, 나이는 {}세 이며, 전화번호는 {} 입니다".format(name, age, phone)
+소개
+~~~
+
+2. 
+~~~python
+name, age, phone = '홍길동', 25, '010-111-2222'
+소개 = "이름은 {0}이고, 나이는 {1}세 이며, 전화번호는 {2} 입니다".format(name, age, phone)
+소개
+~~~
+
+3. 
+~~~python
+name, age, phone = '홍길동', 25, '010-111-2222'
+소개 = "이름은 {a}이고, 나이는 {b}세 이며, 전화번호는 {c} 입니다".format(c = phone, a = name, b = age)
+소개
+~~~
+
+4. 추천방법
+~~~python
+name, age, phone = '홍길동', 25, '010-111-2222'
+소개 = "이름은 {name}이고, 나이는 {age}세 이며, 전화번호는 {phone} 입니다"
+소개
+~~~
+- 출력결과 : '이름은 홍길동 이고, 나이는 25세 이며, 전화번호는 010-111-2222 입니다'
+
+### 문자열 포맷팅
+~~~python
+jan, dec = 1, 12
+print("한 해의 시작은 {:02d}월".format(jan))
+print("한 해의 마지막은 {:02d}월".format(dec))
+~~~
+- 실행결과
+> 한 해의 시작은 1월
+> 한 해의 마지막은 12월
+
+~~~python
+val = 123456789
+money = "{:,}"
+money.format(val)
+~~~
+- 실행결과 : '123,456,789
+
+~~~python
+'{}, {:f}, {:.1f}, {:.2f}, {:.2%}'.format(3, 3, 3, 3.1415, 1/3)
+~~~
+- 실행결과 : '3, 3.000000, 3.0, 3.14, 33.33%'
+
+-------
+
+# 파이썬 리스트와 튜플
+## 1. 파이썬 리스트
+### 파이썬 리스트
+
+
+## 2. 파이썬 리스트 인덱싱과 슬라이싱
+
+
+## 3. 파이썬 튜플
