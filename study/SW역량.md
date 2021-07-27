@@ -112,6 +112,7 @@
 ### 키워드 == 예약어
 - 파이썬 문법에서 이미 예약어로 사용하고 있는 단어는 개발자가 변수명, 함수명 등 식별자로 사용 불가
 - 파이썬에는 총 33개의 예약어 존재
+
 |False|None|True|and|as|assert|async|await|break|class|continue|
 |---|---|---|---|---|---|---|---|---|---|---|
 |def|del|elif|else|except|finally|for|from|global|if|import|
